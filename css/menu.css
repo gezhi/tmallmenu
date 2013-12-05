@@ -1,0 +1,50 @@
+.mallMain{
+	position: relative;
+}
+.menuCategory{
+	width: 250px;
+}
+.category{
+	width: 240px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	background: #A21C1D;
+	color: #fff;
+}
+.menuCategory li{
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.menuCategory h3{
+	padding-left: 10px;
+}
+.menuCategory p{
+	margin-top: 2px;
+}
+.menuCategory li a{
+	margin-left: 10px;
+	color: #848484;
+}
+.subMenu{
+	position: absolute;
+	left: 250px;
+	top: 20px;
+	width: 0;
+	overflow: hidden;
+	z-index: 9;
+}
+.subView{
+	width: 744px;
+	height: 558px;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.2),1px -3px 5px rgba(0,0,0,.2),3px 0 3px rgba(0,0,0,.2) inset;
+	margin-top: 10px;
+	padding: 10px;
+}
+.menuFixed{
+	position: fixed;
+	_position: absolute;
+	top: 0;
+}
